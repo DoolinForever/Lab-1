@@ -1,9 +1,3 @@
-"""
-Linear regression and PCA analysis on the Kaggle diamonds dataset.
-Generates descriptive plots, evaluates Linear and Ridge Regression models
-on original features and on PCA components, and saves key metrics to disk.
-"""
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -288,3 +282,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
