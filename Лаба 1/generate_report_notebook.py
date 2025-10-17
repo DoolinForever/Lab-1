@@ -1,5 +1,3 @@
-"""Utility script to generate the lab report notebook."""
-
 from pathlib import Path
 
 import nbformat as nbf
@@ -136,4 +134,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
